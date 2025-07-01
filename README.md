@@ -6,3 +6,4 @@ knowledge.
 
 - [Payment Systems](./docs/PAYMENT_SYSTEMS.md)
 - [Correspondent Bank Accounts](docs/CORRESPONDENT_BANK_ACCOUNTS.md)
+- [Payment Methods](./docs/PAYMENT_METHODS.md)
