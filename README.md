@@ -9,3 +9,4 @@ knowledge.
 - [Correspondent Bank Accounts](docs/bascis-of-banking/CORRESPONDENT_BANK_ACCOUNTS.md)
 - [Payment Methods](docs/bascis-of-banking/PAYMENT_METHODS.md)
 - [Payment Transaction Lifecycle](docs/bascis-of-banking/PAYMENT_TRANSACTION_LIFECYCLE.md)
+- [Types of Payment Transactions](docs/bascis-of-banking/TYPES_OF_PAYMENT_TRANSACTIONS.md)
