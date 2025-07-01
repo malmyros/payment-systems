@@ -1,4 +1,4 @@
-# Payments
+# Payments Systems
 
 ## What are payment systems?
 
@@ -25,3 +25,23 @@ generates the payment through the preferred payment method
 #### Payee's financial institution
 - Responsible for processing the payments on behalf of the payee
 - Receives the generated payment, generally holding the payment value in account
+
+#### Payee
+- Stakeholder who is beneficiary of the payment transaction
+- His/Her bank account is credited for the value of the transaction
+
+#### Intermediaries
+- Central banks controlling the regulations/compliance and protocols to be followed 
+by the operating banks. Eg. Bank of England (BoE) in UK, ECB in Europe, FED in US
+- Clearing houses. Eg. Bank of England (BoE), BACS, RTGS, Fedwire
+- Information transmission systems. Eg. SWIFT, SEPA
+- Networks. Eg. Visa, Mastercard, UnionPay
+
+#### Payment Instruments / Channels
+- Paper based payments. Eg. Cheques, Demand drafts
+- RTGS (Real time gross settlement) Typically used for high value payments. 
+Also called wire transfers
+- RTNS (Real time net settlement) or ACH (Automated Clearing House) payments, processed in batches, 
+typically used for payroll or iterative payments
+- Card based payments. Eg. Charge, Credit, Debit, Prepaid Cards. Can be initiated through terminals,
+and through online models
