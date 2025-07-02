@@ -14,9 +14,9 @@ knowledge.
 - [Payment Systems Comparison](docs/bascis-of-banking/PAYMENT_SYSTEMS_COMPARISON.md)
 - [SWIFT - The Global Messaging System](docs/bascis-of-banking/SWIFT_THE_GLOBAL_MESSAGING_SYSTEM.md)
 
-## Cross Border Payments
-
-- [Cross-Currency Triangulation](docs/cross-border-payments/CROSS_CURRENCY_TRIANGULATION.md)
+## International Payments & Currency Exchange
+- [Beneficiaries](docs/international-payments-and-currency-exchange/BENEFICIARIES.md)
+- [Cross-Currency Triangulation](docs/international-payments-and-currency-exchange/CROSS_CURRENCY_TRIANGULATION.md)
 
 ## Electronic Money Institutes (EMIs)
 
