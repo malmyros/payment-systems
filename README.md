@@ -13,3 +13,8 @@ knowledge.
 - [Types of Payment Transactions](docs/bascis-of-banking/TYPES_OF_PAYMENT_TRANSACTIONS.md)
 - [Payment Systems Comparison](docs/bascis-of-banking/PAYMENT_SYSTEMS_COMPARISON.md)
 - [SWIFT - The Global Messaging System](docs/bascis-of-banking/SWIFT_THE_GLOBAL_MESSAGING_SYSTEM.md)
+
+## Cross Border Payments
+
+- [Cross-Currency Triangulation](docs/cross-border-payments/CROSS_CURRENCY_TRIANGULATION.md)
+
