@@ -18,6 +18,9 @@ knowledge.
 ## Cards
 
 - [Cards](docs/cards/CARDS.md)
+- [Card Transactions](docs/cards/CARD_TRANSACTIONS.md)
+- [3D Secure (3DS)](docs/cards/3D_SECURE.md)
+- [Card Tokenization](docs/cards/CARD_TOKENIZATION.md)
 
 ## International Payments & Currency Exchange
 - [Beneficiaries](docs/international-payments-and-currency-exchange/BENEFICIARIES.md)
