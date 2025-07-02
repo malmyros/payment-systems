@@ -6,6 +6,7 @@ knowledge.
 
 ## Basics of Banking
 - [Payment Systems](docs/bascis-of-banking/PAYMENT_SYSTEMS.md)
+- [Bank Accounts](docs/bascis-of-banking/BANK_ACCOUNTS.md)
 - [Correspondent Bank Accounts](docs/bascis-of-banking/CORRESPONDENT_BANK_ACCOUNTS.md)
 - [Banking Licencing](docs/bascis-of-banking/BANKING_LICENCING.md)
 - [Payment Methods](docs/bascis-of-banking/PAYMENT_METHODS.md)
