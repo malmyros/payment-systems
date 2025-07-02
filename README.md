@@ -26,3 +26,17 @@ knowledge.
 
 - [Safeguarding](docs/electronic-money-institutes/SAFEGUARDING.md)
 
+## Bibliography
+
+Bellow is a list of books as additional resources that can help you learn more about
+the domain of payment systems and fintech.
+
+- [Payment Systems: From the Salt Mines to the Board Room](https://amzn.eu/d/gWIkYv2)
+- [The Field Guide to Global Payments](https://amzn.eu/d/69J3PmH)
+- [SEPA CREDIT TRANSFER: How to understand and add value to your SCT Payment Project](https://amzn.eu/d/3bNOugN)
+- [Payments Systems in the U.S.: A Guide for the Payments Professional](https://amzn.eu/d/9lse9BD)
+- [Banking as a Service: Opportunities, Challenges, and Risks of New Banking Business Models](https://amzn.eu/d/bdqmOEW)
+- [Embedded Finance: When Payments Become An Experience](https://amzn.eu/d/3UHyLFU)
+- [The Anatomy of the Swipe: Making Money Move](https://amzn.eu/d/2REAEPn)
+- [Mastering Blockchain: Inner workings of blockchain, from cryptography and decentralized identities, to DeFi, NFTs and Web3, 4th Edition](https://amzn.eu/d/3B6KOvX)
+- [Developing High-Frequency Trading Systems: Learn how to implement high-frequency trading from scratch with C++ or Java basics](https://amzn.eu/d/9JfzD61)
