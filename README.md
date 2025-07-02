@@ -18,3 +18,7 @@ knowledge.
 
 - [Cross-Currency Triangulation](docs/cross-border-payments/CROSS_CURRENCY_TRIANGULATION.md)
 
+## Electronic Money Institutes (EMIs)
+
+- [Safeguarding](docs/electronic-money-institutes/SAFEGUARDING.md)
+
