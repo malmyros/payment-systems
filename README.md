@@ -16,6 +16,8 @@ knowledge.
 
 ## International Payments & Currency Exchange
 - [Beneficiaries](docs/international-payments-and-currency-exchange/BENEFICIARIES.md)
+- [Confirmation of Payee](docs/international-payments-and-currency-exchange/CONFIRMATION_OF_PAYEE.md)
+- 
 - [Cross-Currency Triangulation](docs/international-payments-and-currency-exchange/CROSS_CURRENCY_TRIANGULATION.md)
 
 ## Electronic Money Institutes (EMIs)
