@@ -86,7 +86,7 @@ sequenceDiagram
 | **Delivery Address**                     | Used to ship physical cards.                                                   | `123 Main St, London, UK`          |
 | **Card Form Type**                       | Indicates whether the card is virtual, physical, or tokenized.                 | `virtual`, `physical`, `tokenized` |
 
-## 🎨 Card Design & Personalization
+## Card Design & Personalization
 
 In fintech card issuing, card artwork and design are often handled by the manufacturer (e.g., Idemia, Thales, G+D), but
 the card issuer must pass a **Card Image ID** or **template ID** during the card creation request.
