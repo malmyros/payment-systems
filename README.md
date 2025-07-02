@@ -16,6 +16,7 @@ knowledge.
 
 ## International Payments & Currency Exchange
 - [Beneficiaries](docs/international-payments-and-currency-exchange/BENEFICIARIES.md)
+- [Beneficiary OTP Verification Before First Payment](docs/international-payments-and-currency-exchange/BENEFICIARY_OTP_VERIFICATION_BEFORE_FIRST_PAYMENT.md)
 - [Confirmation of Payee (CoP)](docs/international-payments-and-currency-exchange/CONFIRMATION_OF_PAYEE.md)
 - [Cross-Currency Triangulation](docs/international-payments-and-currency-exchange/CROSS_CURRENCY_TRIANGULATION.md)
 - [Verification Of Payee (VoP)](docs/international-payments-and-currency-exchange/VERIFICATION_OF_PAYEE.md)
