@@ -10,3 +10,4 @@ knowledge.
 - [Payment Methods](docs/bascis-of-banking/PAYMENT_METHODS.md)
 - [Payment Transaction Lifecycle](docs/bascis-of-banking/PAYMENT_TRANSACTION_LIFECYCLE.md)
 - [Types of Payment Transactions](docs/bascis-of-banking/TYPES_OF_PAYMENT_TRANSACTIONS.md)
+- [Payment Systems Comparison](docs/bascis-of-banking/PAYMENT_SYSTEMS_COMPARISON.md)
