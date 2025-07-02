@@ -9,16 +9,17 @@ are central to digital payments and often come in various forms: **debit**, **cr
 
 ---
 
-## Types of Cards in Fintech
+## Types of Cards
 
-| Card Type          | Description                                                               | Common Use Cases                         |
-|--------------------|---------------------------------------------------------------------------|------------------------------------------|
-| **Debit Card**     | Linked to a customer’s account; deducts money directly on each use.       | Bank accounts, digital wallets, neobanks |
-| **Credit Card**    | Provides a line of credit; customer repays at a later date.               | BNPL, consumer credit                    |
-| **Prepaid Card**   | Pre-loaded with funds; not linked to a traditional bank account.          | Travel cards, youth cards, gig economy   |
-| **Virtual Card**   | Card credentials issued digitally, often for one-time or online use only. | Online shopping, fraud protection        |
-| **Corporate Card** | Issued to businesses or employees for controlled spending.                | Expense management platforms             |
-| **Tokenized Card** | Card credentials are abstracted into a digital token for secure use.      | Apple Pay, Google Pay, NFC wallets       |
+| Card Type          | Description                                                              | Common Use Cases                             |
+|--------------------|--------------------------------------------------------------------------|----------------------------------------------|
+| **Debit Card**     | Linked to a user's account; deducts funds immediately on use.            | Wallets, neobanks, EMIs                      |
+| **Credit Card**    | Allows borrowing up to a credit limit with repayment flexibility.        | Consumer lending, credit-building fintechs   |
+| **Charge Card**    | Like a credit card, but must be paid in full each month.                 | Corporate expense platforms, premium users   |
+| **Prepaid Card**   | Pre-loaded with funds; not linked to a traditional account.              | Travel cards, gift cards, youth finance apps |
+| **Virtual Card**   | Issued digitally; used primarily for online or mobile transactions.      | BNPL, disposable cards, e-commerce security  |
+| **Corporate Card** | Used by employees with spend controls and real-time reporting.           | Expense management, treasury                 |
+| **Store Card**     | Closed-loop card valid only with the issuing merchant.                   | Retailer loyalty programs, embedded finance  |
 
 ---
 
