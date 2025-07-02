@@ -1,4 +1,4 @@
-# Cross-Currency Triangulation in Java
+# Cross-Currency Triangulation
 
 ## What is Cross-Currency Triangulation?
 
@@ -8,7 +8,10 @@ Cross-currency triangulation is a method to calculate the exchange rate between 
 You want the rate between EUR and GBP, but you only have EUR/USD and GBP/USD rates. Using USD as the pivot, you calculate:  
 
 ```
-EUR/GBP = (EUR/USD) ÷ (GBP/USD)
+EUR/USD = 1.1
+GBP/USD = 1.3
+
+EUR/GBP = (EUR/USD) ÷ (GBP/USD) = 1.1 ÷ 1.3 ≈ 0.846
 ```
 
 ## Why Use Triangulation?
