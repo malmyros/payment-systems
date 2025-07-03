@@ -18,8 +18,8 @@ knowledge.
 ## Cards
 
 - [Cards](docs/cards/CARDS.md)
-- [Card Products](docs/cards/CARD_PRODUCTS.md)
 - [Card Processors](docs/cards/CARD_PROCESSORS.md)
+- [Card Products](docs/cards/CARD_PRODUCTS.md)
 - [Card Manufacturers](docs/cards/CARD_MANUFACTURERS.md)
 - [Card Transactions](docs/cards/CARD_TRANSACTIONS.md)
 - [3D Secure (3DS)](docs/cards/3D_SECURE.md)
