@@ -13,6 +13,10 @@ Each card product must have a **unique name** and include the following attribut
 
 ## Required Fields
 
+Core attributes necessary to define and register a card product. These include identifiers, processor and manufacturer
+details, currency, jurisdiction, and lifecycle settings. They ensure the card product can be uniquely identified,
+correctly routed, and issued within the appropriate regulatory and operational context.
+
 | Field                     | Description                                                | Example             |
 |---------------------------|------------------------------------------------------------|---------------------|
 | `product_code`            | Unique short identifier used programmatically              | `travel_us_01`      |
@@ -31,6 +35,10 @@ Each card product must have a **unique name** and include the following attribut
 
 ## Card Type Configuration
 
+Defines whether the card product supports virtual, physical, or both types of cards, and specifies behavior such
+as the ability to convert virtual cards into physical ones. Also assigns default card profiles used to enforce
+spending rules and transaction limits.
+
 | Field                           | Description                                  | Example                   |
 |---------------------------------|----------------------------------------------|---------------------------|
 | `allows_virtual_cards`          | Whether virtual cards can be issued          | `true`                    |
@@ -42,6 +50,10 @@ Each card product must have a **unique name** and include the following attribut
 ---
 
 ## Card Usage and Behavior
+
+Controls how the card behaves after issuance, including contactless support, name update permissions,
+replacement limits, and delivery address options. These settings help enforce security, compliance,
+and user experience policies.
 
 | Field                                | Description                                       | Example |
 |--------------------------------------|---------------------------------------------------|---------|
@@ -56,8 +68,23 @@ Each card product must have a **unique name** and include the following attribut
 
 ## Fees and Charges
 
+Specifies the financial costs associated with issuing, reordering, or expediting cards.
+These settings are applied at the time of order and ensure appropriate billing and cost recovery for card operations.
+
 | Field                  | Description                               | Example |
 |------------------------|-------------------------------------------|---------|
 | `first_card_fee`       | Fee for first card issuance               | `0.00`  |
 | `reorder_card_fee`     | Fee for reissuing a lost or expired card  | `5.00`  |
 | `express_delivery_fee` | Additional cost for express card delivery | `10.00` |
+
+## Card Ordering Limits
+
+To prevent abuse or fraud (e.g., mass generation of virtual cards), the following optional controls can be configured:
+
+| Field                                            | Description                                                           | Example |
+|--------------------------------------------------|-----------------------------------------------------------------------|---------|
+| `max_virtual_card_orders_per_user`               | Maximum number of virtual cards a user can order under this product.  | `5`     |
+| `max_physical_card_orders_per_user`              | Maximum number of physical cards a user can order under this product. | `2`     |
+| `min_interval_between_virtual_card_orders_days`  | Minimum number of days required between virtual card orders.          | `3`     |
+| `min_interval_between_physical_card_orders_days` | Minimum number of days required between physical card orders.         | `14`    |
+
