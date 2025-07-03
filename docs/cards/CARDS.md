@@ -11,15 +11,15 @@ are central to digital payments and often come in various forms: **debit**, **cr
 
 ## Types of Cards
 
-| Card Type          | Description                                                              | Common Use Cases                             |
-|--------------------|--------------------------------------------------------------------------|----------------------------------------------|
-| **Debit Card**     | Linked to a user's account; deducts funds immediately on use.            | Wallets, neobanks, EMIs                      |
-| **Credit Card**    | Allows borrowing up to a credit limit with repayment flexibility.        | Consumer lending, credit-building fintechs   |
-| **Charge Card**    | Like a credit card, but must be paid in full each month.                 | Corporate expense platforms, premium users   |
-| **Prepaid Card**   | Pre-loaded with funds; not linked to a traditional account.              | Travel cards, gift cards, youth finance apps |
-| **Virtual Card**   | Issued digitally; used primarily for online or mobile transactions.      | BNPL, disposable cards, e-commerce security  |
-| **Corporate Card** | Used by employees with spend controls and real-time reporting.           | Expense management, treasury                 |
-| **Store Card**     | Closed-loop card valid only with the issuing merchant.                   | Retailer loyalty programs, embedded finance  |
+| Card Type          | Description                                                         | Common Use Cases                             |
+|--------------------|---------------------------------------------------------------------|----------------------------------------------|
+| **Debit Card**     | Linked to a user's account; deducts funds immediately on use.       | Wallets, neobanks, EMIs                      |
+| **Credit Card**    | Allows borrowing up to a credit limit with repayment flexibility.   | Consumer lending, credit-building fintechs   |
+| **Charge Card**    | Like a credit card, but must be paid in full each month.            | Corporate expense platforms, premium users   |
+| **Prepaid Card**   | Pre-loaded with funds; not linked to a traditional account.         | Travel cards, gift cards, youth finance apps |
+| **Virtual Card**   | Issued digitally; used primarily for online or mobile transactions. | BNPL, disposable cards, e-commerce security  |
+| **Corporate Card** | Used by employees with spend controls and real-time reporting.      | Expense management, treasury                 |
+| **Store Card**     | Closed-loop card valid only with the issuing merchant.              | Retailer loyalty programs, embedded finance  |
 
 ---
 
@@ -74,17 +74,20 @@ sequenceDiagram
 
 ## Card Structure
 
-| Field                                    | Description                                                                    | Example                            |
-|------------------------------------------|--------------------------------------------------------------------------------|------------------------------------|
-| **PAN (Primary Account Number)**         | 16–19 digit card number that uniquely identifies the account.                  | `4242 4242 4242 4242`              |
-| **CVV / CVC**                            | 3- or 4-digit security code used for card-not-present transactions.            | `123`                              |
-| **Expiry Date**                          | Expiration date (MM/YY) of the card.                                           | `12/28`                            |
-| **Cardholder Name**                      | Name of the person or business to whom the card is issued.                     | `John Doe`                         |
-| **BIN (Bank Identification Number)**     | First 6–8 digits of the PAN identifying the issuing institution.               | `424242`                           |
-| **PIN (Personal Identification Number)** | 4–6 digit code used for in-person authentication.                              | `••••` (encrypted)                 |
-| **Billing Address (AVS)**                | Address used for AVS (Address Verification System) checks in CNP transactions. | `123 Main St, London, UK`          |
-| **Delivery Address**                     | Used to ship physical cards.                                                   | `123 Main St, London, UK`          |
-| **Card Form Type**                       | Indicates whether the card is virtual, physical, or tokenized.                 | `virtual`, `physical`, `tokenized` |
+| Field                                    | Description                                                                         | Example                   | PCI DSS Storage Rules                                         |
+|------------------------------------------|-------------------------------------------------------------------------------------|---------------------------|---------------------------------------------------------------|
+| **Card Form Type**                       | Indicates whether the card is virtual, physical, or tokenized.                      | `virtual`, `physical`     | ✅ Safe to store                                               |
+| **Base Currency**                        | Currency in which the card operates, used for transactions, statements, and limits. | `USD`, `EUR`, `GBP`       | ✅ Safe to store                                               |
+| **Card Product ID**                      | Identifier linking the card to a predefined product or program configuration.       | `prod_travel_us_01`       | ✅ Safe to store                                               |
+| **Card Profile**                         | Controls limits and permissions for card usage (e.g., ATM access, MCC blocks).      | `profile_fx_only`         | ✅ Safe to store                                               |
+| **PAN (Primary Account Number)**         | 16–19 digit card number that uniquely identifies the account.                       | `4242 4242 4242 4242`     | ❌ Cannot be stored unless tokenized or strongly encrypted     |
+| **CVV / CVC**                            | 3- or 4-digit security code used for card-not-present transactions.                 | `123`                     | ❌ Never storable after authorization                          |
+| **Expiry Date**                          | Expiration date (MM/YY) of the card.                                                | `12/28`                   | ⚠️ Can be stored if encrypted and access-controlled           |
+| **Cardholder Name**                      | Name of the person or business to whom the card is issued.                          | `John Doe`                | ✅ Safe to store                                               |
+| **BIN (Bank Identification Number)**     | First 6–8 digits of the PAN identifying the issuing institution.                    | `424242`                  | ✅ Safe to store                                               |
+| **PIN (Personal Identification Number)** | 4–6 digit code used for in-person authentication.                                   | `••••` (encrypted)        | ❌ Never storable unless you're an issuer with PIN block rules |
+| **Billing Address (AVS)**                | Address used for AVS checks in CNP transactions.                                    | `123 Main St, London, UK` | ✅ Safe to store                                               |
+| **Delivery Address**                     | Used to ship physical cards.                                                        | `123 Main St, London, UK` | ✅ Safe to store                                               |
 
 ## Card Design & Personalization
 
