@@ -35,6 +35,10 @@ knowledge.
 
 - [Safeguarding](docs/electronic-money-institutes/SAFEGUARDING.md)
 
+## Fintech Engineering Principles
+
+- [Idempotency](docs/fintech-engineering-principles/IDEMPOTENCY.md)
+
 ## Bibliography
 
 Bellow is a list of books as additional resources that can help you learn more about
